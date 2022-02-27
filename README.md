@@ -49,7 +49,7 @@ Currently just reads from Istanbul's JSON summary reporter and downloads a badge
     ```json
     "jest": {
       "coverageReporters": [
-        "json-summary", 
+        "json-summary",
         "text",
         "lcov"
       ]
@@ -78,11 +78,11 @@ Currently just reads from Istanbul's JSON summary reporter and downloads a badge
     - `./coverage/badge-branches.svg`
 
 #### CLI Options
-  * **input** [default: ./coverage/coverage-summary.json] - the file (and its path) of the summary json that contains the coverage data     
+  * **input** [default: ./coverage/coverage-summary.json] - the file (and its path) of the summary json that contains the coverage data
   * **output** [default: ./coverage] - the path to the directory where the svg files will be placed after download. If path doesn't exist it will be created.
 
-**Example**:    
-  ```$ jest-coverage-badges --input "./cov" --output "./badges"```     
+**Example**:
+  ```$ jest-coverage-badges --input "./cov" --output "./badges"```
 
 
 After this you can add into Github readme (for example) :smiley:

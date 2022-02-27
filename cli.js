@@ -2,8 +2,13 @@
 
 /* eslint-disable semi */
 const mkdirp = require('mkdirp');
-const { get } = require('https');
-const { readFile, writeFile } = require('fs');
+const {
+  get
+} = require('https');
+const {
+  readFile,
+  writeFile
+} = require('fs');
 
 /**
  * Will lookup the argument in the cli arguments list and will return a

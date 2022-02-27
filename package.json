@@ -44,5 +44,12 @@
   "files": [
     "cli.js"
   ],
-  "license": "MIT"
+  "license": "MIT",
+  "husky": {
+    "hooks": {
+      "commit-msg": "validate-commit-msg",
+      "pre-commit": "eslint .",
+      "pre-push": "./test.js"
+    }
+  }
 }
